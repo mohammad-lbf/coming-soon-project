@@ -17,11 +17,11 @@ body{
 }
 @font-face {
     font-family: Vazir ;
-    src: url('../../vazir/Vazir-Bold.eot');
-    src: url('../../vazir/Vazir-Regular.eot?#iefix') format('embedded-opentype'),
-         url('../../vazir/') format('woff2'),
-         url('../../vazir/Vazir-Regular.woff') format('woff'),
-         url('../../vazir/Vazir-Regular.ttf') format('truetype');
+    src: url('./vazir/Vazir-Bold.eot');
+    src: url('./vazir/Vazir-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./vazir/') format('woff2'),
+         url('./vazir/Vazir-Regular.woff') format('woff'),
+         url('./vazir/Vazir-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
