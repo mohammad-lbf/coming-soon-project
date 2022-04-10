@@ -1,6 +1,8 @@
 const html = document.querySelector("html");
 const darkmodeBtn = document.querySelector(".darkmode-btn input");
-let darkmodeStatus;
+const itypedText = document.querySelector(".ityped-text");
+ityped.init(itypedText, { strings: ['در حال تعمیر است'] });
+
 darkmodeBtn.addEventListener("click" , ()=>{    
 if(darkmodeBtn.checked == true){
     html.classList.add("dark");
@@ -20,4 +22,5 @@ document.addEventListener("DOMContentLoaded" , () =>{
   else{
       html.classList.remove("dark")
   } 
-})
+});
+
