@@ -92,6 +92,52 @@ body{
     cursor: pointer;
     transform: rotateZ(360deg);
 }
+.contact-us-header{
+    background-color: rgba(240, 240, 240, 0.2);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contact-us-header::after{
+    content: '';
+    width: 7rem;
+    border-radius: 5px;
+    margin-top: 8px;
+    height: 0.3rem;
+    display: block;
+    background-color: rgba(240, 240, 240, 0.7);
+
+}
+.contact-us .card{
+    border-top: 4px solid #0d6efd;
+    border-bottom: 4px solid #0d6efd;
+    padding: 30px;
+    border-radius: 0.25rem;
+    background: rgba(255, 255, 255, 0.06);
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+}
+
+.contact-us .card i {
+    font-size: 20px;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.contact-us .card i:hover {
+  background: #0d6efd;
+  border-color: #0d6efd;
+  color: #fff;
+}
+#map { height: 325px; }
+
 
 .lh-0{
     line-height: 0;
