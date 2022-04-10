@@ -83,6 +83,19 @@ body{
 .dark .countdown-element{
     background-color: transparent;
 }
+.messengers div{
+    background-color: rgba(240, 240, 240, 0.2);
+    transition: all 0.5s;
+}
+.messengers div:hover{
+    background-color: rgba(0, 51, 255, 0.5);
+    cursor: pointer;
+    transform: rotateZ(360deg);
+}
+
+.lh-0{
+    line-height: 0;
+}
 @media (min-width:576px) {
  
 }
